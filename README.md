@@ -1,21 +1,11 @@
 # MapReduce
 
-**TODO: Add description**
+**A MapReduce example app in Elixir to create a script that counts the times each word appears in a text document**
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `map_reduce` to your list of dependencies in `mix.exs`:
+Run `mix escript.build` in the application folder to create the executable.
 
-```elixir
-def deps do
-  [
-    {:map_reduce, "~> 0.1.0"}
-  ]
-end
-```
+Use the application by invoking `./_build/mapreduce --file=your_file.txt` in the command line.
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/map_reduce](https://hexdocs.pm/map_reduce).
-
+The file name must be relevant to the working directory from the point of where you invoke the command.
